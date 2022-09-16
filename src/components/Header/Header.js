@@ -1,11 +1,12 @@
 import React from "react";
+import "./header.css";
 
 const Header = () => {
   return (
     <div className="Header">
-      <div className="headerTitles">
-        <span className="headerTitlesSm">React and Node</span>
-        <span className="headerTitlesLg">Blog</span>
+      <div className="headerTitle">
+        <span className="headerTitleSm">React and Node</span>
+        <span className="headerTitleLg">Blog</span>
       </div>
       <img
         className="headerImg"
