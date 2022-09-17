@@ -1,12 +1,12 @@
 import React from "react";
 import "./HomePage.css";
 import Sidebar from "../SideBar/Sidebar";
-import Post from "../Post/Post";
+import Posts from "../Post/Posts";
 
 const HomePage = () => {
   return (
     <div className="HomePage">
-      <Post />
+      <Posts />
       <Sidebar />
     </div>
   );
