@@ -1,0 +1,53 @@
+.singlePost {
+  flex: 9;
+  padding-left: 50px;
+}
+
+.SPWrapper {
+  padding: 20px;
+  padding-right: 0px;
+}
+
+.SPImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.SPTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", sans-serif;
+  font-size: 28px;
+}
+
+.SPEdit {
+  float: right;
+  font-size: 16;
+}
+
+.SPInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: "Varela", sans-serif;
+  color: #b39656;
+}
+
+.SPAuthor {
+  color: black;
+}
+
+.SPDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.SPDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  min-width: 600;
+}
