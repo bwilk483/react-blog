@@ -1,6 +1,8 @@
 import React from "react";
 import "./NavBar.css";
 
+import { Link } from "react-router-dom";
+
 import {
   FaFacebookSquare,
   FaInstagramSquare,
@@ -35,10 +37,14 @@ const NavBar = () => {
 
       <div className="navCenter">
         <ul className="navList">
-          <li className="navListItems">HOME</li>
+          <li className="navListItems">
+            <Link to="/">HOME</Link>
+          </li>
           <li className="navListItems">ABOUT</li>
           <li className="navListItems">CONTACT</li>
-          <li className="navListItems">WRITE</li>
+          <li className="navListItems">
+            <Link to="/write">WRITE</Link>
+          </li>
           <li className="navListItems">LOGOUT</li>
         </ul>
       </div>
