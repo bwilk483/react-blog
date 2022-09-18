@@ -42,3 +42,7 @@
   font-weight: 300;
   cursor: pointer;
 }
+.navBtn {
+  text-decoration: none;
+  color: inherit;
+}
